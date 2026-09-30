@@ -1,0 +1,8 @@
+{
+  "teachers": {
+    "demo-teacher": {
+      "salt": "59436ef80555d3a393253adf41e962aa",
+      "password_hash": "93978d354f2e84f196233862c00b9e03f64239d019d3bdbf36c8fe2a5892d780"
+    }
+  }
+}

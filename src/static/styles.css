@@ -24,6 +24,39 @@ header {
   border-radius: 5px;
 }
 
+.teacher-access {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto 20px;
+}
+
+.teacher-access form,
+#teacher-session {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.teacher-access input {
+  width: min(180px, 42vw);
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.teacher-access label {
+  font-size: 14px;
+}
+
+.teacher-access .hidden {
+  display: none;
+}
+
 header h1 {
   margin-bottom: 10px;
 }
