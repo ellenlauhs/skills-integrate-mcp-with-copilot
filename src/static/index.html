@@ -12,6 +12,22 @@
       <h2>Extracurricular Activities</h2>
     </header>
 
+    <div class="teacher-access">
+      <button id="teacher-login-toggle" type="button" aria-expanded="false">Teacher Sign In</button>
+      <form id="teacher-login-form" class="hidden">
+        <label for="teacher-username">Username</label>
+        <input type="text" id="teacher-username" autocomplete="username" required />
+        <label for="teacher-password">Password</label>
+        <input type="password" id="teacher-password" autocomplete="current-password" required />
+        <button type="submit">Sign In</button>
+      </form>
+      <div id="teacher-session" class="hidden">
+        <span id="teacher-name"></span>
+        <button id="teacher-logout" type="button">Sign Out</button>
+      </div>
+      <p id="auth-message" class="hidden" role="status"></p>
+    </div>
+
     <main>
       <section id="activities-container">
         <h3>Available Activities</h3>
@@ -21,8 +37,8 @@
         </div>
       </section>
 
-      <section id="signup-container">
-        <h3>Sign Up for an Activity</h3>
+      <section id="signup-container" class="hidden">
+        <h3>Manage Student Signups</h3>
         <form id="signup-form">
           <div class="form-group">
             <label for="email">Student Email:</label>
